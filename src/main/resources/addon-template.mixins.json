@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.Pixelb0t.addon.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerTickMixin",
+    "worldBorderMixin",
+    "PlayerBoatMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ServerConectionBeginEventMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

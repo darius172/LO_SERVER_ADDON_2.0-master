@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pixelutility",
+  "version": "${version}",
+  "name": "Pixel_b0t's utilitys for liveoverflow's Server ",
+  "description": "A meteor client addon made for liveoverflow's server.",
+  "authors": [
+    "Pixel_b0t"
+  ],
+  "contact": {
+    "youtube": "https://www.youtube.com/channel/UC-d_IliK-w-dd1Jq2SI8jyA"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.Addon"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
